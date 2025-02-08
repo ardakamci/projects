@@ -1,0 +1,89 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    background-color: rgb(49, 1, 1);
+    color: white;
+    padding: 20px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+#index-section{
+  background: url('yemek.jpg') no-repeat center;  
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orangered;
+}
+.social {
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: orangered;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    padding: 50px 0;
+    width: 100%;
+}
+.footer-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}#about-section .about-container .about-image img{
+height: 200px;
+width: 80%;
+margin-bottom: 50px;
+}
+.about-text p {margin-top: 50px;
+    color: black;}
+#menu-section{
+        padding: 50px 20px;
+          }
+.menu-container{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+  
+          }
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+.contact-form input,.contact-form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form .form-button{
+    align-items: center;
+  
+}
